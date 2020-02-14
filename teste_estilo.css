@@ -1,0 +1,46 @@
+* {
+    padding:0;
+    margin:0;
+    vertical-align:baseline;
+    list-style:none;
+    }
+    
+    fieldset {
+        border:none;
+    }
+    
+    body {
+        width: 100%;
+        background-color: darkblue;
+        color: #69F;
+        font-family: 'Open Sans', sans-serif;
+        font-size: 12px;
+        line-height: 20px;
+        text-align: center;
+    }
+    
+    h1 {
+        color: #fff;
+        font-size: 30px;
+        margin: 30px; 
+    }
+    
+    #valor1, #valor2 {
+        width: 100px;
+        border-radius: 30px;
+        margin-bottom: 20px;
+        margin-left: 46.5%;
+        margin-right: 46.5%;
+        box-sizing: border-box;
+        padding-left: 0.5em;
+    }   
+    
+    #botao-calcular {
+        width: 150px;
+        height: 50px;
+        border-radius: 30px;
+        margin-top: 20px;
+        text-transform: uppercase;
+        background-color: lightgreen;
+        color: darkblue;
+    }    

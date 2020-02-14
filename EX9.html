@@ -1,0 +1,47 @@
+<meta charset="UTF-8">
+
+<script>
+    function pulaLinha(){
+        document.write("<br>");
+    }
+    function pulaLinha2(){
+        document.write("<br><br>");
+    }
+    var funcionario, salario, aumento;
+
+    funcionario =  prompt("Insira o nome do Funcionario: ");
+    salario = parseFloat(prompt("Insira o salario do funcionario: "));
+        
+    pulaLinha();
+    
+    if(salario >= 5000)
+    {
+        aumento = salario*0.05
+        //escreva("\n"+ funcionario + " Seu aumento é de: " + aumento )
+		//escreva("\n"+ funcionario + " Seu salario atual é: " + (salario+aumento)) 
+        document.write("Caro " + funcionario + " Seu aumento é de: " + "R$"+ aumento);
+        pulaLinha2();
+        document.write("Então " + funcionario + " Seu salário era de: " + "R$"+ salario);
+        pulaLinha();
+        document.write("Caro " + funcionario + " Seu salário atual é de: " + "R$"+ (salario+aumento));
+        alert ("Parabéns pelo aumento.\nCaso tenha duvidas, procure pelo Recursos Humanos")
+    }
+    else
+    {
+        aumento = salario*0.10
+        document.write("Caro " + funcionario + " Seu aumento é de: " + "R$"+ aumento);
+        pulaLinha2();
+        document.write("Então " + funcionario + " Seu salário era de: " + "R$"+ salario);
+        pulaLinha();
+        document.write("E agora " + funcionario + " Seu salário atual é de: " + "R$"+ (salario+aumento));
+        alert ("Parabéns pelo aumento.\nCaso tenha duvidas, procure pelo Recursos Humanos")
+    }
+    
+    
+    
+
+
+
+
+
+</script>

@@ -1,0 +1,48 @@
+<meta charset="UTF-8">
+
+<script>
+    /*
+    *Criar 3 vetores com cinco posiçoes respectivamente chamados a, b, c.
+    Cadastrar numeros no vetor a
+    o vetor b sera o vetor a*2
+    o vetor c sera o vetor a + mais o vetor b 
+    imprimir os tres vetores.
+    */
+    function pulaLinha(){
+        document.write("<br>");
+    }
+    function pulaLinha2(){
+        document.write("<br><br>");
+    }
+    
+    var vetorA = [];
+    for (var posicao=0; posicao < 5; posicao++ )
+    {
+        vetorA[posicao] = parseInt(prompt("Digite um numero: "));
+        document.write(vetorA[posicao]+ " ");
+    }
+    pulaLinha();
+    var vetorB = parseInt([]);
+    for (posicao = 0; posicao < 5; posicao++)
+    {
+        document.write(vetorB[posicao] = vetorA[posicao] * 2 + " ");
+    }
+    pulaLinha();
+    var vetorC = parseInt([]);
+    for(posicao = 0; posicao < 5; posicao++)
+    {
+        document.write(vetorC[posicao] = (vetorA[posicao] + vetorB[posicao]) + " ");
+
+    }
+
+
+    
+    //var reverseNumeros = numeros.reverse();
+    //document.write(reverseNumeros);
+    
+
+
+
+
+
+</script>
